@@ -1,0 +1,155 @@
+/* Cat website */
+
+* {
+	box-sizing: border-box;
+}
+
+
+html {
+	background-color: white;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 0 0;
+	padding: 0.5em;
+	background: lightblue;
+	color: #282828;
+	font-size: 22px;
+	line-height: 1.2;
+}
+
+main {
+	max-width: 35em;
+	margin: 0em auto;
+	margin-left: 0em;
+	padding: 0 0.5em;
+	perspective: 20em;
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: 2em;
+	margin-left: 9em;
+}
+
+h2 {
+	font-size: 1em;
+	color: white;
+	margin-left: 18em;
+	margin-top: -1em; 
+}
+
+h3 {
+	font-size: 15px;
+	margin-left: 400px;
+	margin-top: 0em; 
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+img {
+	max-width: 50%;
+	height: auto;
+	margin-top: -22em;
+	margin-bottom: 2em;
+}
+
+footer {
+	background: white;
+	margin: -0.5em;
+	padding: 1em 0.5em 3em 0.5em;
+	color: lightblue;
+	text-align: left;
+}
+
+
+
+
+.button {
+	border: 2px solid;
+	border-radius: 1em;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+	color: #282828;
+	display: inline-block;
+	margin: 0.5em 0;
+	transition: color 0.25s;
+	margin-left: 18em; 
+}
+
+.button:hover {
+	color: white;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	padding: 0.5em;
+	z-index: 2;
+	box-shadow:0 0 2px 0 #282828;
+	display: flex;
+	justify-content: normal;
+	align-items: center;
+}
+
+
+nav a {
+	margin: 0.5em;
+	color: #282828;
+	text-decoration: none;
+	transition: color 0.25s;
+}
+
+nav a:hover {
+	color: #f2c544;
+}
+
+.branding {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.grid {
+	display: flex;
+	margin-top: 24em;
+	margin-bottom: 4em;
+}
+
+.item {
+	width: 33.33%;
+	padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
